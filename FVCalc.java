@@ -5,6 +5,6 @@ public class FVCalc {
 		int presentage = Integer.parseInt(args[1]);
 		int years = Integer.parseInt(args[2]);
 		double futureValue = initialSum * Math.pow(((double)presentage/100) + 1, years);
-		System.out.printf("After %d years, %d$ saved at %d%% will yield %d$%n", years, initialSum, presentage, (int)futureValue);
+		System.out.printf("After %d years, $%d saved at %.1f%% will yield $%d%n", years, initialSum, (double)presentage, (int)futureValue);
 	}
 }
