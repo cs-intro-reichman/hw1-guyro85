@@ -7,6 +7,6 @@ public class Bill3 {
 		String name3 = args[2];
 		int bill = Integer.parseInt(args[3]);
 		double billForEach = Math.ceil((double)bill / 3);
-		System.out.printf("Dear %s, %s, and %s: pay %.1f shekels each", name3, name2, name1, billForEach);   
+		System.out.printf("Dear %s, %s, and %s: pay %.1f Shekels each%n", name3, name2, name1, billForEach);   
 	}
 }
